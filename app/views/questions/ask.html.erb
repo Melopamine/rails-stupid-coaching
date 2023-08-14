@@ -1,0 +1,6 @@
+<div class="container mt-5">
+  <form action="/answer" data-turbo="false" class="d-flex flex-row justify-content-between align-items-center">
+    <input type="text" class="form-control flex-grow-1 mr-2 inputradius" id="question" name="question" value="<%= params[:question] %>" placeholder="Ask your question">
+    <button type="submit" class="btn btn-primary buttonradius">Ask!</button>
+  </form>
+</div>
